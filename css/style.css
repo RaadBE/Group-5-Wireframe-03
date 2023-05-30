@@ -34,6 +34,24 @@ header {
 .secondblock .ourservices, .secondblock h2 {
   text-align: center;
 }
+.secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
+  background-color: white;
+  display: block;
+  border: 15px solid #f1f6f7;
+  padding: 5px;
+}
+.secondblock .graphisdesign {
+  display: flex;
+  justify-content: space-around;
+}
+.secondblock .digitalmarketing {
+  display: flex;
+  justify-content: space-around;
+}
+.secondblock .webdesign {
+  display: flex;
+  justify-content: space-around;
+}
 .secondblock .brush, .secondblock .frame, .secondblock .bolt {
   width: 130px;
 }
@@ -46,7 +64,7 @@ header {
 }
 .secondblock .learnmore {
   color: #0069fe;
-  background-color: none;
+  background-color: white;
   border: none;
   font-weight: bold;
 }
