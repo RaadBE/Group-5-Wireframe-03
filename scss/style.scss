@@ -1,0 +1,67 @@
+// Camila
+//media screen 320px
+    
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.firstblock {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+   
+    .material-icons{
+        color: white;
+        size: 10px;
+    }
+    background-color: #0069fe;
+
+    .button1 {
+        border-radius: 25px;
+        background-color: white;
+        color: #0069fe   
+        
+    }
+    .button2 {
+        background-color: #0069fe;
+        color: white;
+        border: 3px solid white;
+        border-radius: 25px;
+    }
+}
+
+.secondblock {
+    background-color: #f1f6f7;
+    .ourservices, h2 {
+        text-align: center;
+        
+}
+
+.ourservices {
+    color: rgb(108 108 108);
+}
+.learnmore {
+    color: #0069fe;
+    background-color: none;
+    border: none;
+    font-weight: bold;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+.thirdblock {
+    text-align: center;
+    color: rgb(108 108 108);
+
+    h2 { color: black;
+
+    }
+}

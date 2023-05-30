@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstblock {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  background-color: #0069fe;
+}
+.firstblock .material-icons {
+  color: white;
+  size: 10px;
+}
+.firstblock .button1 {
+  border-radius: 25px;
+  background-color: white;
+  color: #0069fe;
+}
+.firstblock .button2 {
+  background-color: #0069fe;
+  color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+.secondblock {
+  background-color: #f1f6f7;
+}
+.secondblock .ourservices, .secondblock h2 {
+  text-align: center;
+}
+.secondblock .ourservices {
+  color: rgb(108, 108, 108);
+}
+.secondblock .learnmore {
+  color: #0069fe;
+  background-color: none;
+  border: none;
+  font-weight: bold;
+}
+.secondblock .services {
+  display: flex;
+  flex-direction: column;
+}
+
+.thirdblock {
+  text-align: center;
+  color: rgb(108, 108, 108);
+}
+.thirdblock h2 {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
