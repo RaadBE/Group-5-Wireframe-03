@@ -1,0 +1,62 @@
+$fontol: #5494f6 ;
+$shadow:rgba(0, 0, 0, 0.24) 11px 10px 8px;
+
+.main {
+	text-align: center;
+
+}
+$fontol: #5494f6 ;
+.main {
+	text-align: center;
+}
+
+.team {
+
+
+}h1 {
+	font-weight: bold;
+	margin-bottom: 0;
+		padding-bottom: 6px;
+}p {
+	margin-top: 0;
+	color: $fontol;
+}#blc {
+	// color:#6c6c6c;
+	// padding-bottom: 3px;
+	// border-right: 3px solid #6c6c6c;
+	// height: 28px;
+}.first-pers {
+	margin-top: 25px;
+}
+
+.team {
+
+
+}h1 {
+	font-weight: bold;
+	margin-bottom: 0;
+		padding-bottom: 6px;
+}p {
+	margin-top: 0;
+	color: $fontol;
+	padding-bottom: 20px;
+
+}#blc {
+	// color:#6c6c6c;
+	// padding-bottom: 3px;
+	// border-right: 3px solid #6c6c6c;
+	// height: 28px;
+}.first-pers {
+	margin-top: 25px;
+	// box-shadow: 10px 5px 5px rgb(55,35,25);
+	// box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	box-shadow: $shadow;
+}.sec-pers,.third-pers {
+box-shadow: $shadow;
+}.last {
+	padding-top: 15px;
+	text-align: center;
+	background-color: #f2f6f7;
+}.last p {
+
+}
