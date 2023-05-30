@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .main {
   text-align: center; }
 
@@ -21,21 +26,59 @@ h1 {
   margin-bottom: 0;
   padding-bottom: 6px; }
 
-p {
+.team p {
   margin-top: 0;
   color: #5494f6;
   padding-bottom: 20px; }
 
 .first-pers {
   margin-top: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 8px; }
+  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px; }
 
 .sec-pers, .third-pers {
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 8px; }
+  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px; }
 
 .last {
   padding-top: 15px;
   text-align: center;
-  background-color: #f2f6f7; }
+  background-color: #f2f6f7;
+  padding-bottom: 30px; }
+
+footer {
+  background-color: #f2f6f7;
+  width: 100%; }
+
+.last p {
+  color: #6c6c6c; }
+
+.it1, .it3, .it2 {
+  display: flex;
+  height: 80px;
+  margin: 0;
+  align-items: center;
+  gap: 20px;
+  padding: 13px; }
+
+.msg-first {
+  display: flex;
+  height: 80px;
+  margin: 0;
+  align-items: center;
+  gap: 20px;
+  padding: 13px; }
+
+.mgs {
+  display: flex;
+  flex-direction: column; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto; }
+
+.feedback-input {
+  background: url(img/icon1.png) no-repeat scroll 7px 7px;
+  padding-left: 30px; }
 
 /*# sourceMappingURL=style.css.map */
