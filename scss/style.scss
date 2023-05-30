@@ -41,6 +41,16 @@ header {
         
 }
 
+.brush, .frame, .bolt {
+width: 130px;
+}
+
+.graphicsdesign {
+    display: flex;
+    align-items: center;
+    
+}
+
 .ourservices {
     color: rgb(108 108 108);
 }
@@ -58,10 +68,36 @@ header {
 }
 
 .thirdblock {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: rgb(108 108 108);
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
 
     h2 { color: black;
 
     }
+
+    .allwork {
+        background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+        background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+        color: white;
+        border-radius: 25px;
+        border: none;
+    }
+
+    .marketing, .planning, .research {
+        color: rgb(108 108 108);
+        border-radius: 25px;
+        border: none;
+        background-color: white;
+    }
+
+
 }

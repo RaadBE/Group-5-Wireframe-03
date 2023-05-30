@@ -34,6 +34,13 @@ header {
 .secondblock .ourservices, .secondblock h2 {
   text-align: center;
 }
+.secondblock .brush, .secondblock .frame, .secondblock .bolt {
+  width: 130px;
+}
+.secondblock .graphicsdesign {
+  display: flex;
+  align-items: center;
+}
 .secondblock .ourservices {
   color: rgb(108, 108, 108);
 }
@@ -49,11 +56,32 @@ header {
 }
 
 .thirdblock {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: rgb(108, 108, 108);
 }
+.thirdblock nav {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
 .thirdblock h2 {
   color: black;
+}
+.thirdblock .allwork {
+  background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+  background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+.thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
+  color: rgb(108, 108, 108);
+  border-radius: 25px;
+  border: none;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
