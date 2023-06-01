@@ -34,6 +34,7 @@ header {
   color: #0069fe;
   font-weight: bold;
   padding: 10px;
+  border: none;
 }
 
 .firstblock .button2 {
