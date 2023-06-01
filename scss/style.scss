@@ -335,7 +335,7 @@ body {
         justify-content: space-between;
         background-color: white;
         border-radius: 20px;
-        padding-top: 20px;
+        // padding-top: 20px;
         text-align: center;
         gap: 15px;
 
@@ -352,7 +352,7 @@ body {
           height: 100%;
           display: flex;
           justify-content: center;
-          align-items: center;
+          // align-items: center;
           padding-left: 10px;
 
           .reviewImg {
@@ -406,4 +406,407 @@ body {
   }
 
 
+}
+
+// Camila
+//media screen 320px
+
+// $font-all:'Montserrat', sans-serif ,'Poppins', sans-serif;
+
+body {
+  // MERGE WITH OTHER BODY SELECTOR ABOVE
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.firstblock {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  height: 70vh;
+
+  .firstparagraph {
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .firsttitle {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+
+  .buttonsfirstblock {
+    display: flex;
+    margin-top: 5px;
+    padding-top: 5px;
+
+  }
+
+  .material-icons {
+    color: white;
+    size: 10px;
+  }
+
+  background-color: #0069fe;
+
+  .button1 {
+    border-radius: 25px;
+    background-color: white;
+    color: #0069fe;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+
+  }
+
+  .button2 {
+    background-color: #0069fe;
+    color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+
+.secondblock {
+  background-color: #f1f6f7;
+
+  .ourservices,
+  h2 {
+    text-align: center;
+    margin-top: 2px;
+
+  }
+
+  .servicestitle {
+    padding-top: 100px;
+    padding-bottom: 15px;
+  }
+
+  .servicesdescription {
+    color: #6c6c6c;
+  }
+
+  .biggraphic,
+  .bigweb,
+  .bigdigital {
+    background-color: white;
+    display: block;
+    border: 15px solid #f1f6f7;
+    padding: 5px;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 25px;
+  }
+
+  .bigdigital {
+    margin-bottom: 90px;
+  }
+
+
+  .graphisdesign {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .digitalmarketing {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .webdesign {
+    display: flex;
+
+    justify-content: space-around;
+  }
+
+  .brush,
+  .frame,
+  .bolt {
+    width: 100px;
+  }
+
+  .graphicsdesign {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .ourservices {
+    color: rgb(108 108 108);
+    padding-bottom: 15px;
+  }
+
+  .learnmore {
+    color: #0069fe;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.thirdblock {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(108 108 108);
+
+  .thirdparagraph {
+    color: #6c6c6c;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .thirdtitle {
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 15px;
+
+  }
+
+  .allwork {
+    background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+    background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 7px;
+  }
+
+  .marketing,
+  .planning,
+  .research {
+    color: rgb(108 108 108);
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+}
+
+// ---------RAAD----------
+
+$fontol: #5494f6;
+$shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px;
+
+@mixin iconss {
+  display: flex;
+  height: 80px;
+  margin: 0;
+  align-items: center;
+  gap: 20px;
+  padding: 13px;
+}
+
+@mixin formicon {
+  background-image: url('#{$path--rel}/#{$img}');
+  background: url(../img/icon1.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  height: 32px;
+  background-position: right;
+  margin-bottom: 30px;
+}
+
+.main {
+  // TODO: MERGE WITH OTHER MAIN SELECTOR
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team {}
+
+.main h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+}
+
+p {
+  margin-top: 0;
+  color: $fontol;
+}
+
+#blc {
+  color: #6c6c6c;
+  padding-bottom: 50px;
+  border-right: 3px solid #6c6c6c;
+  height: 28px;
+}
+
+.first-pers {
+  margin-top: 25px;
+}
+
+.main h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.team p {
+  margin-top: 0;
+  color: $fontol;
+  padding-bottom: 20px;
+
+}
+
+.first-pers {
+  margin-top: 25px;
+  box-shadow: $shadow;
+}
+
+.sec-pers,
+.third-pers {
+  box-shadow: $shadow;
+}
+
+.last {
+  padding-top: 15px;
+  text-align: center;
+  background-color: #f2f6f7;
+  padding-bottom: 30px;
+  ;
+}
+
+footer {
+  background-color: #f2f6f7;
+  width: 100%;
+}
+
+.last p {
+  color: #6c6c6c;
+}
+
+.it1,
+.it3,
+.it2 {
+
+  @include iconss;
+}
+
+.msg-first {
+  @include iconss;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto;
+
+}
+
+.feedback-input1 {
+  background: url(../img/icon1.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  height: 32px;
+  background-position: right;
+  margin-bottom: 30px;
+}
+
+.feedback-input2 {
+  background: url(../img/icon2.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  height: 32px;
+  background-position: right;
+  margin-bottom: 30px;
+}
+
+.feedback-input3 {
+  height: 131px;
+  background: url(../img/icon3.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: 26px;
+  padding-top: 1px;
+  background-position: top right;
+  margin-bottom: 30px;
+}
+
+#btn {
+  width: 100px;
+  height: 34px;
+  color: white;
+  background-color: skyblue;
+  border: none;
+  border-radius: 4px;
+}
+
+.footr {
+  background: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+.footr img,
+.footr i {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+
+}
+
+.text-foot p {
+  color: white;
+  padding-top: 20px;
+}
+
+#fot-img {
+  width: 70px;
+  height: 70px;
+}
+
+.footr i {
+  padding-left: 10px;
+}
+
+.text-foot em {
+  color: $fontol;
 }
