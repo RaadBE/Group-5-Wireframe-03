@@ -83,7 +83,7 @@ header {
   align-items: center;
 }
 .secondblock .ourservices {
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
   padding-bottom: 15px;
 }
 .secondblock .learnmore {
@@ -102,7 +102,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
 }
 .thirdblock nav {
   display: flex;
@@ -114,15 +114,15 @@ header {
   padding-top: 60px;
 }
 .thirdblock .allwork {
-  background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+  background: -webkit-linear-gradient(90deg, #0070fb, #00d8e0);
+  background: linear-gradient(90deg, #0070fb, #00d8e0);
   color: white;
   border-radius: 25px;
   border: none;
   padding: 7px;
 }
 .thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
   border-radius: 25px;
   border: none;
   background-color: white;
@@ -252,5 +252,3 @@ textarea {
   background-position: top right;
   margin-bottom: 30px;
 }
-
-/*# sourceMappingURL=style.css.map */
