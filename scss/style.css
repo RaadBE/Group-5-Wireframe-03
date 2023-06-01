@@ -35,7 +35,7 @@ body .priceMainDiv {
 }
 body .priceMainDiv .priceTitle {
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   gap: 4%;
@@ -144,7 +144,7 @@ body .abotUs .questionTitle img {
 }
 body .abotUs .question {
   width: 100%;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,7 +275,7 @@ body .reviewDiv .middleGreyDiv {
 }
 body .reviewDiv .middleGreyDiv .whiteDiv {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
