@@ -12,18 +12,22 @@ header {
   height: 70vh;
   background-color: #0069fe;
 }
+
 .firstblock h1 {
   padding-top: 50px;
 }
+
 .firstblock .buttonsfirstblock {
   display: flex;
   margin-top: 5px;
   padding-top: 5px;
 }
+
 .firstblock .material-icons {
   color: white;
   size: 10px;
 }
+
 .firstblock .button1 {
   border-radius: 25px;
   background-color: white;
@@ -32,6 +36,7 @@ header {
   padding: 10px;
   border: none;
 }
+
 .firstblock .button2 {
   background-color: #0069fe;
   color: white;
@@ -44,13 +49,16 @@ header {
 .secondblock {
   background-color: #f1f6f7;
 }
+
 .secondblock .ourservices, .secondblock h2 {
   text-align: center;
   margin-top: 2px;
 }
+
 .secondblock h2 {
   padding-top: 100px;
 }
+
 .secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
   background-color: white;
   display: block;
@@ -60,38 +68,47 @@ header {
   padding-left: 12px;
   padding-right: 12px;
 }
+
 .secondblock .bigdigital {
   margin-bottom: 90px;
 }
+
 .secondblock .graphisdesign {
   display: flex;
   justify-content: space-around;
 }
+
 .secondblock .digitalmarketing {
   display: flex;
   justify-content: space-around;
 }
+
 .secondblock .webdesign {
   display: flex;
   justify-content: space-around;
 }
+
 .secondblock .brush, .secondblock .frame, .secondblock .bolt {
   width: 100px;
 }
+
 .secondblock .graphicsdesign {
   display: flex;
   align-items: center;
 }
+
 .secondblock .ourservices {
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
   padding-bottom: 15px;
 }
+
 .secondblock .learnmore {
   color: #0069fe;
   background-color: white;
   border: none;
   font-weight: bold;
 }
+
 .secondblock .services {
   display: flex;
   flex-direction: column;
@@ -102,27 +119,31 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
 }
+
 .thirdblock nav {
   display: flex;
   flex-direction: column;
   padding: 30px;
 }
+
 .thirdblock h2 {
   color: black;
   padding-top: 60px;
 }
+
 .thirdblock .allwork {
-  background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+  background: -webkit-linear-gradient(90deg, #0070fb, #00d8e0);
+  background: linear-gradient(90deg, #0070fb, #00d8e0);
   color: white;
   border-radius: 25px;
   border: none;
   padding: 7px;
 }
+
 .thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
-  color: rgb(108, 108, 108);
+  color: #6c6c6c;
   border-radius: 25px;
   border: none;
   background-color: white;
