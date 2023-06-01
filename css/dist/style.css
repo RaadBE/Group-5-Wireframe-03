@@ -9,8 +9,18 @@ header {
   flex-direction: column;
   color: white;
   padding: 20px;
-  height: 100vh;
+  height: 70vh;
   background-color: #0069fe;
+}
+
+.firstblock h1 {
+  padding-top: 50px;
+}
+
+.firstblock .buttonsfirstblock {
+  display: flex;
+  margin-top: 5px;
+  padding-top: 5px;
 }
 
 .firstblock .material-icons {
@@ -22,6 +32,8 @@ header {
   border-radius: 25px;
   background-color: white;
   color: #0069fe;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .firstblock .button2 {
@@ -29,6 +41,8 @@ header {
   color: white;
   border: 3px solid white;
   border-radius: 25px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .secondblock {
@@ -37,6 +51,11 @@ header {
 
 .secondblock .ourservices, .secondblock h2 {
   text-align: center;
+  margin-top: 2px;
+}
+
+.secondblock h2 {
+  padding-top: 100px;
 }
 
 .secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
@@ -44,6 +63,13 @@ header {
   display: block;
   border: 15px solid #f1f6f7;
   padding: 5px;
+  padding-bottom: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.secondblock .bigdigital {
+  margin-bottom: 90px;
 }
 
 .secondblock .graphisdesign {
@@ -62,7 +88,7 @@ header {
 }
 
 .secondblock .brush, .secondblock .frame, .secondblock .bolt {
-  width: 130px;
+  width: 100px;
 }
 
 .secondblock .graphicsdesign {
@@ -72,6 +98,7 @@ header {
 
 .secondblock .ourservices {
   color: #6c6c6c;
+  padding-bottom: 15px;
 }
 
 .secondblock .learnmore {
@@ -102,6 +129,7 @@ header {
 
 .thirdblock h2 {
   color: black;
+  padding-top: 60px;
 }
 
 .thirdblock .allwork {
@@ -118,6 +146,8 @@ header {
   border-radius: 25px;
   border: none;
   background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

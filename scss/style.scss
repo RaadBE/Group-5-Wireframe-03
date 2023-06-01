@@ -7,13 +7,26 @@ header {
     justify-content: space-between;    
 }
 
+
 .firstblock {
     display: flex;
     flex-direction: column;
     color: white;
     padding: 20px;
-    height: 100vh;
-   
+    height: 70vh;
+
+    h1 {
+        padding-top: 50px;
+    }
+
+    
+    .buttonsfirstblock {
+        display: flex;
+        margin-top: 5px;
+        padding-top: 5px;
+        
+    }
+    
     .material-icons{
         color: white;
         size: 10px;
@@ -23,7 +36,9 @@ header {
     .button1 {
         border-radius: 25px;
         background-color: white;
-        color: #0069fe   
+        color: #0069fe;
+        font-weight: bold;   
+        padding: 10px;
         
     }
     .button2 {
@@ -31,6 +46,8 @@ header {
         color: white;
         border: 3px solid white;
         border-radius: 25px;
+        font-weight: bold;
+        padding: 10px;
     }
 }
 
@@ -38,7 +55,12 @@ header {
     background-color: #f1f6f7;
     .ourservices, h2 {
         text-align: center;
+        margin-top: 2px;
         
+}
+
+h2 {
+    padding-top: 100px;
 }
 
 .biggraphic, .bigweb, .bigdigital {
@@ -46,6 +68,13 @@ header {
     display: block;
     border: 15px solid #f1f6f7;
     padding: 5px;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bigdigital {
+    margin-bottom: 90px;
 }
 
 
@@ -66,7 +95,7 @@ header {
 }
 
 .brush, .frame, .bolt {
-width: 130px;
+width: 100px;
 }
 
 .graphicsdesign {
@@ -77,6 +106,7 @@ width: 130px;
 
 .ourservices {
     color: rgb(108 108 108);
+    padding-bottom: 15px;
 }
 .learnmore {
     color: #0069fe;
@@ -105,6 +135,7 @@ width: 130px;
     }
 
     h2 { color: black;
+        padding-top: 60px;
 
     }
 
@@ -122,6 +153,8 @@ width: 130px;
         border-radius: 25px;
         border: none;
         background-color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
 
