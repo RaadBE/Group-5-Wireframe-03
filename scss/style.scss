@@ -15,8 +15,14 @@ header {
     padding: 20px;
     height: 70vh;
 
-    h1 {
+    .firstparagraph {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .firsttitle {
         padding-top: 50px;
+        padding-bottom: 20px;
     }
 
     
@@ -40,6 +46,7 @@ header {
         font-weight: bold;   
         padding: 10px;
         border: none;
+        margin-right: 10px;
         
     }
     .button2 {
@@ -60,8 +67,13 @@ header {
         
 }
 
-h2 {
+.servicestitle {
     padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.servicesdescription {
+    color: #6c6c6c;
 }
 
 .biggraphic, .bigweb, .bigdigital {
@@ -72,6 +84,7 @@ h2 {
     padding-bottom: 35px;
     padding-left: 12px;
     padding-right: 12px;
+    padding-top: 25px;
 }
 
 .bigdigital {
@@ -114,6 +127,8 @@ width: 100px;
     background-color: white;
     border: none;
     font-weight: bold;
+    padding-top: 20px;
+    text-transform: uppercase;
 }
 .services {
     display: flex;
@@ -129,14 +144,22 @@ width: 100px;
     text-align: center;
     color: rgb(108 108 108);
 
+.thirdparagraph {
+    color: #6c6c6c;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
     nav {
         display: flex;
         flex-direction: column;
         padding: 30px;
     }
 
-    h2 { color: black;
+    .thirdtitle { color: black;
         padding-top: 60px;
+        padding-bottom: 15px;
 
     }
 

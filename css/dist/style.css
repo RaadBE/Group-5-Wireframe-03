@@ -13,8 +13,14 @@ header {
   background-color: #0069fe;
 }
 
-.firstblock h1 {
+.firstblock .firstparagraph {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.firstblock .firsttitle {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .firstblock .buttonsfirstblock {
@@ -35,6 +41,7 @@ header {
   font-weight: bold;
   padding: 10px;
   border: none;
+  margin-right: 10px;
 }
 
 .firstblock .button2 {
@@ -55,8 +62,13 @@ header {
   margin-top: 2px;
 }
 
-.secondblock h2 {
+.secondblock .servicestitle {
   padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.secondblock .servicesdescription {
+  color: #6c6c6c;
 }
 
 .secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
@@ -67,6 +79,7 @@ header {
   padding-bottom: 35px;
   padding-left: 12px;
   padding-right: 12px;
+  padding-top: 25px;
 }
 
 .secondblock .bigdigital {
@@ -107,6 +120,8 @@ header {
   background-color: white;
   border: none;
   font-weight: bold;
+  padding-top: 20px;
+  text-transform: uppercase;
 }
 
 .secondblock .services {
@@ -122,15 +137,23 @@ header {
   color: #6c6c6c;
 }
 
+.thirdblock .thirdparagraph {
+  color: #6c6c6c;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .thirdblock nav {
   display: flex;
   flex-direction: column;
   padding: 30px;
 }
 
-.thirdblock h2 {
+.thirdblock .thirdtitle {
   color: black;
   padding-top: 60px;
+  padding-bottom: 15px;
 }
 
 .thirdblock .allwork {
