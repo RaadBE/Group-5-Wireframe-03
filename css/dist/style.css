@@ -110,6 +110,7 @@ header {
   color: white;
   border-radius: 25px;
   border: none;
+  padding: 7px;
 }
 
 .thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
