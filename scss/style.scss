@@ -1,3 +1,195 @@
+// Camila
+//media screen 320px
+
+// $font-all:'Montserrat', sans-serif ,'Poppins', sans-serif;  
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+    
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+
+.firstblock {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    height: 70vh;
+
+    .firstparagraph {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .firsttitle {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    
+    .buttonsfirstblock {
+        display: flex;
+        margin-top: 5px;
+        padding-top: 5px;
+        
+    }
+    
+    .material-icons{
+        color: white;
+        size: 10px;
+    }
+    background-color: #0069fe;
+
+    .button1 {
+        border-radius: 25px;
+        background-color: white;
+        color: #0069fe;
+        font-weight: bold;   
+        padding: 10px;
+        border: none;
+        margin-right: 10px;
+        
+    }
+    .button2 {
+        background-color: #0069fe;
+        color: white;
+        border: 3px solid white;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
+
+.secondblock {
+    background-color: #f1f6f7;
+    .ourservices, h2 {
+        text-align: center;
+        margin-top: 2px;
+        
+}
+
+.servicestitle {
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.servicesdescription {
+    color: #6c6c6c;
+}
+
+.biggraphic, .bigweb, .bigdigital {
+    background-color: white;
+    display: block;
+    border: 15px solid #f1f6f7;
+    padding: 5px;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 25px;
+}
+
+.bigdigital {
+    margin-bottom: 90px;
+}
+
+
+.graphisdesign {
+    display: flex;
+    justify-content: space-around;
+}
+
+.digitalmarketing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webdesign {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.brush, .frame, .bolt {
+width: 100px;
+}
+
+.graphicsdesign {
+    display: flex;
+    align-items: center;
+    
+}
+
+.ourservices {
+    color: rgb(108 108 108);
+    padding-bottom: 15px;
+}
+.learnmore {
+    color: #0069fe;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+.thirdblock {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(108 108 108);
+
+.thirdparagraph {
+    color: #6c6c6c;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .thirdtitle { color: black;
+        padding-top: 60px;
+        padding-bottom: 15px;
+
+    }
+
+    .allwork {
+        background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+        background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
+        color: white;
+        border-radius: 25px;
+        border: none;
+        padding: 7px;
+    }
+
+    .marketing, .planning, .research {
+        color: rgb(108 108 108);
+        border-radius: 25px;
+        border: none;
+        background-color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+}
+// ---------RAAD----------
 
 $fontol: #5494f6 ;
 $shadow:rgba(0, 0, 0, 0.24) 11px 10px 57px;
