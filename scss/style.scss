@@ -1,0 +1,409 @@
+//*Giorgi
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+//*colors//
+$grey: #f1f6f7;
+$darkGrey: rgb(108 108 108);
+$myGradient: linear-gradient(180deg, rgb(44, 217, 221), rgb(4, 116, 241));
+$lineColor: #d4e0f0;
+$buttonTxtColor: #2a7ef3;
+$middleGrey: #E8ECEF;
+$breakpoint-desktop: 1024px;
+
+
+body {
+
+  padding: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 3%;
+
+  @media (min-width: $breakpoint-desktop) {
+    padding: 0;
+  }
+
+
+
+
+  .priceMainDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20% 0 0 0;
+    background-color: $grey;
+    gap: 3%;
+
+    @media (min-width: $breakpoint-desktop) {
+      padding-top: 20px;
+      height: 600px;
+    }
+
+
+
+    .priceTitle {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 4%;
+    }
+
+
+
+    .priceGradientDivs {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 5%;
+
+      @media (min-width: $breakpoint-desktop) {
+
+
+        width: 70%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3% 0 3%;
+
+      }
+
+
+    }
+
+    .gradientDiv {
+      width: 100%;
+      height: 370px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: $myGradient;
+      text-align: center;
+      border-radius: 10px;
+      color: white;
+      gap: 3%;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+
+    }
+
+    button {
+      width: 40%;
+      height: 8%;
+      border-radius: 20px;
+      border: none;
+      color: $buttonTxtColor;
+      font-weight: bold;
+      text-align: center;
+
+      transition: ease-in-out 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $lineColor;
+        transform: scale(1.1);
+        transition: ease-in-out 0.5s;
+
+      }
+    }
+  }
+
+  .abotUs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20% 0 3% 0;
+    gap: 10px;
+
+    @media (min-width: $breakpoint-desktop) {
+      padding: 0;
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aboutUsFirstDiv {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 20%;
+        height: 100%;
+      }
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .questionTitle {
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      img {
+        width: 15px;
+        height: 15px;
+        transform: rotate(270deg);
+      }
+    }
+
+    .question {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .avoutUsImg {
+      width: 100%;
+      height: 250px;
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 50%;
+        height: 500px;
+      }
+
+
+      img {
+        width: 100%;
+        height: 100%;
+
+
+
+      }
+
+    }
+  }
+
+  .testimonials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20% 0 3% 3%;
+    gap: 10px;
+    background-color: $grey;
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      justify-content: space-around;
+
+
+    }
+
+    .tesltxtDiv {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 20%;
+        height: 100%;
+
+
+      }
+
+    }
+
+    .lines {
+      width: 100%;
+      height: 5px;
+      display: flex;
+      gap: 3%;
+      justify-content: flex-start;
+
+      .lineL {
+        width: 20%;
+        height: 100%;
+        background-color: $lineColor;
+        border-radius: 5px;
+      }
+
+      .lineM {
+        width: 15%;
+        height: 100%;
+        background-color: $lineColor;
+        border-radius: 5px;
+      }
+
+      .lineS {
+        width: 8%;
+        height: 100%;
+        background-color: $lineColor;
+        border-radius: 5px;
+      }
+
+      .lineVs {
+        width: 3%;
+        height: 100%;
+        background-color: $lineColor;
+        border-radius: 5px;
+      }
+    }
+
+    .testContent {
+      width: 100%;
+      height: 170px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .reviewDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20% 3% 3% 3%;
+    gap: 10px;
+    background-color: $grey;
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+    }
+
+    .middleGreyDiv {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      background: $middleGrey;
+      padding-top: 20px;
+
+      @media (min-width: $breakpoint-desktop) {
+        border-radius: 50px;
+      }
+
+
+      .whiteDiv {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 20px;
+        padding-top: 20px;
+        text-align: center;
+        gap: 15px;
+
+        .line {
+          width: 100%;
+          height: 1px;
+          background-color: $lineColor;
+
+
+        }
+
+        .lastDiv {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 10px;
+
+          .reviewImg {
+            width: 30%;
+            height: 85px;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 50%;
+            }
+          }
+
+          .nameAndReview {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .startsAndReview {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .starts {
+              width: 100%;
+              height: 20px;
+              display: flex;
+              justify-content: center;
+
+
+              img {
+                width: 20px;
+                height: 20px;
+              }
+
+            }
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
