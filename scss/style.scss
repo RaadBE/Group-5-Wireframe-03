@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//*colors//
+$grey: #f1f6f7;
+$darkGrey: rgb(108 108 108);
+$myGradient: linear-gradient(180deg, rgb(44, 217, 221), rgb(4, 116, 241));
+$lineColor: #d4e0f0;
+$buttonTxtColor: #2a7ef3;
+$middleGrey: #E8ECEF;
+$breakpoint-desktop: 1024px;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 3%;
+
+
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+    .priceDiv {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: $grey;
+      padding: 0 3% 0 3%;
+      gap: 3%;
+
+
+
+    }
+
+
+
+
+    .gradientDiv {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      background: $myGradient;
+      border-radius: 10px;
+      padding: 0 4% 5% 4%;
+
+      h1 {
+        color: white;
+      }
+
+      p {
+        color: white;
+      }
+
+      h2 {
+        color: white;
+      }
+
+
+      img {
+        width: 40%;
+
+      }
+
+      .gradientPdiv {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      button {
+        width: 40%;
+        height: 8%;
+        color: $buttonTxtColor;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+      }
+    }
+  }
+
+  .aboutUsDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20% 3% 0 3%;
+    gap: 3%;
+
+
+    h1 {
+      color: $buttonTxtColor;
+      font-weight: bold;
+      font-size: medium;
+
+    }
+
+    .question {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      gap: 20%;
+
+      .questionTitle {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+          width: 15%;
+          height: 100%;
+        }
+      }
+    }
+
+
+  }
+
+  .aboutUsImg {
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+
+  .testimonilas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20% 3% 0 3%;
+    gap: 3%;
+    background: $grey;
+
+    h1 {
+      color: $buttonTxtColor;
+      font-weight: bold;
+      font-size: medium;
+    }
+
+    .lines {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2%;
+
+      .lineL {
+        width: 15%;
+        height: 20%;
+        background-color: $lineColor;
+        border-radius: 20%;
+      }
+
+      .lineM {
+        width: 10%;
+        height: 20%;
+        background-color: $lineColor;
+        border-radius: 20%;
+      }
+
+      .lineS {
+        width: 5%;
+        height: 20%;
+        background-color: $lineColor;
+        border-radius: 20%;
+      }
+
+      .lineVs {
+        width: 2%;
+        height: 20%;
+        background-color: $lineColor;
+        border-radius: 20%;
+      }
+    }
+
+    .pContent {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+    }
+  }
+
+  .reviewDiv {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 3% 0 3%;
+    gap: 3%;
+    background: $grey;
+
+    .middleDiv {
+      width: 100%;
+      height: 400px;
+      background-color: $middleGrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+
+
+      .whiteDiv {
+        width: 100%;
+        height: 80%;
+        background-color: white;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0 3% 0 3%;
+
+        p {
+
+          padding-top: 6%;
+        }
+
+        .line {
+          width: 1000;
+          height: 1px;
+          background-color: $middleGrey;
+        }
+
+        .imgAndReview {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+
+          p {
+            opacity: 0.2;
+            font-weight: bold;
+          }
+
+          img {
+            width: 30%;
+            height: 40%;
+            border-radius: 50%;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          .review {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3%;
+
+            .stars {
+              width: 100%;
+              height: 10%;
+              justify-content: center;
+              display: flex;
+
+              img {
+                width: 10%;
+                height: 100%;
+
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+}

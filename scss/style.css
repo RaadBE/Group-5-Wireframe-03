@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 3%;
+}
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .priceDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f1f6f7;
+  padding: 0 3% 0 3%;
+  gap: 3%;
+}
+body .container .priceDiv .gradientDiv {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, rgb(44, 217, 221), rgb(4, 116, 241));
+  border-radius: 10px;
+  padding: 0 4% 5% 4%;
+}
+body .container .priceDiv .gradientDiv h1 {
+  color: white;
+}
+body .container .priceDiv .gradientDiv p {
+  color: white;
+}
+body .container .priceDiv .gradientDiv h2 {
+  color: white;
+}
+body .container .priceDiv .gradientDiv img {
+  width: 40%;
+}
+body .container .priceDiv .gradientDiv .gradientPdiv {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body .container .priceDiv .gradientDiv button {
+  width: 40%;
+  height: 8%;
+  color: #2a7ef3;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+body .container .priceDiv .gradientDiv button:hover {
+  transform: scale(1.1);
+}
+body .container .aboutUsDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 20% 3% 0 3%;
+  gap: 3%;
+}
+body .container .aboutUsDiv h1 {
+  color: #2a7ef3;
+  font-weight: bold;
+  font-size: medium;
+}
+body .container .aboutUsDiv .question {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 20%;
+}
+body .container .aboutUsDiv .question .questionTitle {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .aboutUsDiv .question .questionTitle img {
+  width: 15%;
+  height: 100%;
+}
+body .container .aboutUsImg {
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+body .container .aboutUsImg img {
+  width: 100%;
+  height: 100%;
+}
+body .container .testimonilas {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20% 3% 0 3%;
+  gap: 3%;
+  background: #f1f6f7;
+}
+body .container .testimonilas h1 {
+  color: #2a7ef3;
+  font-weight: bold;
+  font-size: medium;
+}
+body .container .testimonilas .lines {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+body .container .testimonilas .lines .lineL {
+  width: 15%;
+  height: 20%;
+  background-color: #d4e0f0;
+  border-radius: 20%;
+}
+body .container .testimonilas .lines .lineM {
+  width: 10%;
+  height: 20%;
+  background-color: #d4e0f0;
+  border-radius: 20%;
+}
+body .container .testimonilas .lines .lineS {
+  width: 5%;
+  height: 20%;
+  background-color: #d4e0f0;
+  border-radius: 20%;
+}
+body .container .testimonilas .lines .lineVs {
+  width: 2%;
+  height: 20%;
+  background-color: #d4e0f0;
+  border-radius: 20%;
+}
+body .container .testimonilas .pContent {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+body .container .reviewDiv {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 3% 0 3%;
+  gap: 3%;
+  background: #f1f6f7;
+}
+body .container .reviewDiv .middleDiv {
+  width: 100%;
+  height: 400px;
+  background-color: #E8ECEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+body .container .reviewDiv .middleDiv .whiteDiv {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 3% 0 3%;
+}
+body .container .reviewDiv .middleDiv .whiteDiv p {
+  padding-top: 6%;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .line {
+  width: 1000;
+  height: 1px;
+  background-color: #E8ECEF;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview p {
+  opacity: 0.2;
+  font-weight: bold;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview img {
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview .review {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3%;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview .review .stars {
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  display: flex;
+}
+body .container .reviewDiv .middleDiv .whiteDiv .imgAndReview .review .stars img {
+  width: 10%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
