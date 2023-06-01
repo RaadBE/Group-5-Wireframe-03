@@ -1,7 +1,73 @@
+
 // Camila
 //media screen 320px
 
 // $font-all:'Montserrat', sans-serif ,'Poppins', sans-serif;  
+@media (min-width:1024px){
+    
+.firsttitle {
+    display: none;
+}
+.rocket {
+    width: 300px;
+}
+
+.download {
+    background-color: #f1f6f7;
+    border: none;
+}
+
+.desktop {
+    background-color: #0069fe;
+    border: none;
+}
+
+.firstblockmaincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .material-icons 
+    {
+        display: none;
+    }
+
+    .secondblock .services {
+        display: flex;
+        flex-direction: row;
+    }
+    }
+ 
+
+@media (max-width:320px) {
+    .navbardesktop {
+        display:none; 
+    }
+    .download {
+        display: none;
+    }
+    .rocket {
+        display: none;
+    }
+    .titledesktop {
+        display: none;
+    }
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -10,7 +76,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;   
 }
 
 
@@ -19,7 +85,17 @@ header {
     flex-direction: column;
     color: white;
     padding: 20px;
-    height: 70vh;
+    height: 90vh;
+
+
+//Desktop
+
+    // // header {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-between;
+    //     align-items: flex-start;
+
 
     .firstparagraph {
         color: white;
@@ -36,7 +112,7 @@ header {
         display: flex;
         margin-top: 5px;
         padding-top: 5px;
-        
+        // padding-bottom: 20px;  
     }
     
     .material-icons{
@@ -221,10 +297,8 @@ $shadow:rgba(0, 0, 0, 0.24) 11px 10px 57px;
 	text-align: center;
 	margin-top: 40px;
 }
-.team {
 
-
-}.main h1 {
+.main h1 {
 	font-weight: bold;
 	margin-bottom: 0;
 	padding-bottom: 6px;

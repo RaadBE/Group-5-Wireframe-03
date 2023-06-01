@@ -1,3 +1,66 @@
+@media (min-width: 1024px) {
+  .firsttitle {
+    display: none;
+  }
+
+  .rocket {
+    width: 300px;
+  }
+
+  .download {
+    background-color: #f1f6f7;
+    border: none;
+  }
+
+  .desktop {
+    background-color: #0069fe;
+    border: none;
+  }
+
+  .firstblockmaincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .material-icons {
+    display: none;
+  }
+
+  .secondblock .services {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 320px) {
+  .navbardesktop {
+    display: none;
+  }
+
+  .download {
+    display: none;
+  }
+
+  .rocket {
+    display: none;
+  }
+
+  .titledesktop {
+    display: none;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -13,7 +76,7 @@ header {
   flex-direction: column;
   color: white;
   padding: 20px;
-  height: 70vh;
+  height: 90vh;
   background-color: #0069fe;
 }
 .firstblock .firstparagraph {
