@@ -1,200 +1,60 @@
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.firstblock {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  height: 70vh;
-  background-color: #0069fe;
-}
-.firstblock h1 {
-  padding-top: 50px;
-}
-.firstblock .buttonsfirstblock {
-  display: flex;
-  margin-top: 5px;
-  padding-top: 5px;
-}
-.firstblock .material-icons {
-  color: white;
-  size: 10px;
-}
-.firstblock .button1 {
-  border-radius: 25px;
-  background-color: white;
-  color: #0069fe;
-  font-weight: bold;
-  padding: 10px;
-  border: none;
-}
-.firstblock .button2 {
-  background-color: #0069fe;
-  color: white;
-  border: 3px solid white;
-  border-radius: 25px;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.secondblock {
-  background-color: #f1f6f7;
-}
-.secondblock .ourservices, .secondblock h2 {
-  text-align: center;
-  margin-top: 2px;
-}
-.secondblock h2 {
-  padding-top: 100px;
-}
-.secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
-  background-color: white;
-  display: block;
-  border: 15px solid #f1f6f7;
-  padding: 5px;
-  padding-bottom: 35px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.secondblock .bigdigital {
-  margin-bottom: 90px;
-}
-.secondblock .graphisdesign {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .digitalmarketing {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .webdesign {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .brush, .secondblock .frame, .secondblock .bolt {
-  width: 100px;
-}
-.secondblock .graphicsdesign {
-  display: flex;
-  align-items: center;
-}
-.secondblock .ourservices {
-  color: rgb(108, 108, 108);
-  padding-bottom: 15px;
-}
-.secondblock .learnmore {
-  color: #0069fe;
-  background-color: white;
-  border: none;
-  font-weight: bold;
-}
-.secondblock .services {
-  display: flex;
-  flex-direction: column;
-}
-
-.thirdblock {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: rgb(108, 108, 108);
-}
-.thirdblock nav {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-}
-.thirdblock h2 {
-  color: black;
-  padding-top: 60px;
-}
-.thirdblock .allwork {
-  background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  color: white;
-  border-radius: 25px;
-  border: none;
-  padding: 7px;
-}
-.thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
-  color: rgb(108, 108, 108);
-  border-radius: 25px;
-  border: none;
-  background-color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .main {
   text-align: center;
-}
+  margin-top: 40px; }
 
-.main {
-  text-align: center;
-}
-
-h1 {
+.main h1 {
   font-weight: bold;
   margin-bottom: 0;
-  padding-bottom: 6px;
-}
+  padding-bottom: 6px; }
 
 p {
   margin-top: 0;
-  color: #5494f6;
-}
+  color: #5494f6; }
+
+#blc {
+  color: #6c6c6c;
+  padding-bottom: 50px;
+  border-right: 3px solid #6c6c6c;
+  height: 28px; }
 
 .first-pers {
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
-h1 {
+.main h1 {
   font-weight: bold;
   margin-bottom: 0;
-  padding-bottom: 6px;
-}
+  padding-bottom: 20px;
+  padding-top: 20px; }
 
 .team p {
   margin-top: 0;
   color: #5494f6;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .first-pers {
   margin-top: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px;
-}
+  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px; }
 
 .sec-pers, .third-pers {
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px;
-}
+  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px; }
 
 .last {
   padding-top: 15px;
   text-align: center;
   background-color: #f2f6f7;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 footer {
   background-color: #f2f6f7;
-  width: 100%;
-}
+  width: 100%; }
 
 .last p {
-  color: #6c6c6c;
-}
+  color: #6c6c6c; }
 
 .it1, .it3, .it2 {
   display: flex;
@@ -202,8 +62,7 @@ footer {
   margin: 0;
   align-items: center;
   gap: 20px;
-  padding: 13px;
-}
+  padding: 13px; }
 
 .msg-first {
   display: flex;
@@ -211,21 +70,18 @@ footer {
   margin: 0;
   align-items: center;
   gap: 20px;
-  padding: 13px;
-}
+  padding: 13px; }
 
 .msg {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px; }
-}
 
 form {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  margin: auto;
-}
+  margin: auto; }
 
 .feedback-input1 {
   background: url(../img/icon1.png) no-repeat scroll 7px 7px;
@@ -233,8 +89,7 @@ form {
   background-size: contain;
   height: 32px;
   background-position: right;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .feedback-input2 {
   background: url(../img/icon2.png) no-repeat scroll 7px 7px;
@@ -242,8 +97,7 @@ form {
   background-size: contain;
   height: 32px;
   background-position: right;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .feedback-input3 {
   height: 131px;
@@ -252,8 +106,7 @@ form {
   background-size: 26px;
   padding-top: 1px;
   background-position: top right;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 #btn {
   width: 100px;
@@ -277,7 +130,6 @@ form {
 
 .footr img, .footr i {
   -webkit-filter: invert(100%);
-  /* Safari/Chrome */
   filter: invert(100%); }
 
 .text-foot p {

@@ -1,166 +1,3 @@
-// Camila
-//media screen 320px
-    
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
-}
-
-
-.firstblock {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding: 20px;
-    height: 70vh;
-
-    h1 {
-        padding-top: 50px;
-    }
-
-    
-    .buttonsfirstblock {
-        display: flex;
-        margin-top: 5px;
-        padding-top: 5px;
-        
-    }
-    
-    .material-icons{
-        color: white;
-        size: 10px;
-    }
-    background-color: #0069fe;
-
-    .button1 {
-        border-radius: 25px;
-        background-color: white;
-        color: #0069fe;
-        font-weight: bold;   
-        padding: 10px;
-        border: none;
-        
-    }
-    .button2 {
-        background-color: #0069fe;
-        color: white;
-        border: 3px solid white;
-        border-radius: 25px;
-        font-weight: bold;
-        padding: 10px;
-    }
-}
-
-.secondblock {
-    background-color: #f1f6f7;
-    .ourservices, h2 {
-        text-align: center;
-        margin-top: 2px;
-        
-}
-
-h2 {
-    padding-top: 100px;
-}
-
-.biggraphic, .bigweb, .bigdigital {
-    background-color: white;
-    display: block;
-    border: 15px solid #f1f6f7;
-    padding: 5px;
-    padding-bottom: 35px;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.bigdigital {
-    margin-bottom: 90px;
-}
-
-
-.graphisdesign {
-    display: flex;
-    justify-content: space-around;
-}
-
-.digitalmarketing {
-    display: flex;
-    justify-content: space-around;
-}
-
-.webdesign {
-    display: flex;
-
-    justify-content: space-around;
-}
-
-.brush, .frame, .bolt {
-width: 100px;
-}
-
-.graphicsdesign {
-    display: flex;
-    align-items: center;
-    
-}
-
-.ourservices {
-    color: rgb(108 108 108);
-    padding-bottom: 15px;
-}
-.learnmore {
-    color: #0069fe;
-    background-color: white;
-    border: none;
-    font-weight: bold;
-}
-.services {
-    display: flex;
-    flex-direction: column;
-}
-
-}
-
-.thirdblock {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: rgb(108 108 108);
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
-    }
-
-    h2 { color: black;
-        padding-top: 60px;
-
-    }
-
-    .allwork {
-        background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-        background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-        color: white;
-        border-radius: 25px;
-        border: none;
-        padding: 7px;
-    }
-
-    .marketing, .planning, .research {
-        color: rgb(108 108 108);
-        border-radius: 25px;
-        border: none;
-        background-color: white;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-
-}
-// ---------RAAD----------
 
 $fontol: #5494f6 ;
 $shadow:rgba(0, 0, 0, 0.24) 11px 10px 57px;
@@ -190,16 +27,12 @@ $shadow:rgba(0, 0, 0, 0.24) 11px 10px 57px;
 
 .main {
 	text-align: center;
+	margin-top: 40px;
 }
-$fontol: #5494f6 ;
-.main {
-	text-align: center;
-}
-
 .team {
 
 
-}h1 {
+}.main h1 {
 	font-weight: bold;
 	margin-bottom: 0;
 	padding-bottom: 6px;
@@ -207,31 +40,26 @@ $fontol: #5494f6 ;
 	margin-top: 0;
 	color: $fontol;
 }#blc {
-	// color:#6c6c6c;
-	// padding-bottom: 3px;
-	// border-right: 3px solid #6c6c6c;
-	// height: 28px;
+	color:#6c6c6c;
+	padding-bottom: 50px;
+	border-right: 3px solid #6c6c6c;
+	height: 28px;
 }.first-pers {
 	margin-top: 25px;
 }
-h1 {
-	font-weight: bold;
-	margin-bottom: 0;
-		padding-bottom: 6px;
+.main h1 {
+		font-weight: bold;
+		margin-bottom: 0;
+		padding-bottom: 20px;
+		padding-top: 20px;
+
 }.team p {
 	margin-top: 0;
 	color: $fontol;
 	padding-bottom: 20px;
 
-}#blc {
-	// color:#6c6c6c;
-	// padding-bottom: 3px;
-	// border-right: 3px solid #6c6c6c;
-	// height: 28px;
 }.first-pers {
 	margin-top: 25px;
-	// box-shadow: 10px 5px 5px rgb(55,35,25);
-	// box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	box-shadow: $shadow;
 }.sec-pers,.third-pers {
 box-shadow: $shadow;
@@ -244,8 +72,6 @@ box-shadow: $shadow;
 	background-color: #f2f6f7;
 	width: 100%;
 }.last p {
-	// padding-top: 10px;
-	// padding-bottom: 20px;
 	color: #6c6c6c;
 }.it1,.it3,.it2 {
 
@@ -307,7 +133,7 @@ box-shadow: $shadow;
 	padding-top: 40px;
 	
 }.footr img, .footr i{
-	 -webkit-filter: invert(100%); /* Safari/Chrome */
+	 -webkit-filter: invert(100%); 
     filter: invert(100%);
 
 }.text-foot p {
@@ -321,3 +147,5 @@ box-shadow: $shadow;
 }.text-foot em {
 	color: $fontol;
 }
+
+
