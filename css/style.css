@@ -77,8 +77,28 @@ form {
   width: 90vw;
   margin: auto; }
 
-.feedback-input {
-  background: url(img/icon1.png) no-repeat scroll 7px 7px;
-  padding-left: 30px; }
+.feedback-input1 {
+  background: url(../img/icon1.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  height: 32px;
+  background-position: right;
+  margin-bottom: 30px; }
+
+.feedback-input2 {
+  background: url(../img/icon2.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  height: 32px;
+  background-position: right;
+  margin-bottom: 30px; }
+
+textarea {
+  height: 115px;
+  background: url(../img/icon3.png) no-repeat scroll 7px 7px;
+  padding-left: 5px;
+  background-size: contain;
+  background-position: top right;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
