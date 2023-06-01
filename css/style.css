@@ -1,332 +1,66 @@
-body {
-  font-family: "Poppins", sans-serif;
-}
+/*
+Error: wrong number of arguments (1 for 3) for `rgb'
+        on line 13 of scss/style.scss
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+8: 
+9: 
+10: 
+11: //*colors//
+12: $grey: #f1f6f7;
+13: $darkGrey: rgb(108 108 108);
+14: $myGradient: linear-gradient(180deg, rgb(44, 217, 221), rgb(4, 116, 241));
+15: $lineColor: #d4e0f0;
+16: $buttonTxtColor: #2a7ef3;
+17: $middleGrey: #E8ECEF;
+18: $breakpoint-desktop: 1024px;
 
-.firstblock {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  height: 70vh;
-  background-color: #0069fe;
-}
-.firstblock .firstparagraph {
-  color: white;
-  padding-bottom: 20px;
-}
-.firstblock .firsttitle {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-.firstblock .buttonsfirstblock {
-  display: flex;
-  margin-top: 5px;
-  padding-top: 5px;
-}
-.firstblock .material-icons {
-  color: white;
-  size: 10px;
-}
-.firstblock .button1 {
-  border-radius: 25px;
-  background-color: white;
-  color: #0069fe;
-  font-weight: bold;
-  padding: 10px;
-  border: none;
-  margin-right: 10px;
-}
-.firstblock .button2 {
-  background-color: #0069fe;
-  color: white;
-  border: 3px solid white;
-  border-radius: 25px;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.secondblock {
-  background-color: #f1f6f7;
-}
-.secondblock .ourservices, .secondblock h2 {
-  text-align: center;
-  margin-top: 2px;
-}
-.secondblock .servicestitle {
-  padding-top: 100px;
-  padding-bottom: 15px;
-}
-.secondblock .servicesdescription {
-  color: #6c6c6c;
-}
-.secondblock .biggraphic, .secondblock .bigweb, .secondblock .bigdigital {
-  background-color: white;
-  display: block;
-  border: 15px solid #f1f6f7;
-  padding: 5px;
-  padding-bottom: 35px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 25px;
-}
-.secondblock .bigdigital {
-  margin-bottom: 90px;
-}
-.secondblock .graphisdesign {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .digitalmarketing {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .webdesign {
-  display: flex;
-  justify-content: space-around;
-}
-.secondblock .brush, .secondblock .frame, .secondblock .bolt {
-  width: 100px;
-}
-.secondblock .graphicsdesign {
-  display: flex;
-  align-items: center;
-}
-.secondblock .ourservices {
-  color: rgb(108, 108, 108);
-  padding-bottom: 15px;
-}
-.secondblock .learnmore {
-  color: #0069fe;
-  background-color: white;
-  border: none;
-  font-weight: bold;
-  padding-top: 20px;
-  text-transform: uppercase;
-}
-.secondblock .services {
-  display: flex;
-  flex-direction: column;
-}
-
-.thirdblock {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: rgb(108, 108, 108);
-}
-.thirdblock .thirdparagraph {
-  color: #6c6c6c;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.thirdblock nav {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-}
-.thirdblock .thirdtitle {
-  color: black;
-  padding-top: 60px;
-  padding-bottom: 15px;
-}
-.thirdblock .allwork {
-  background: -webkit-linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  background: linear-gradient(90deg, rgb(0, 112, 251), rgb(0, 216, 224));
-  color: white;
-  border-radius: 25px;
-  border: none;
-  padding: 7px;
-}
-.thirdblock .marketing, .thirdblock .planning, .thirdblock .research {
-  color: rgb(108, 108, 108);
-  border-radius: 25px;
-  border: none;
-  background-color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.main {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.main h1 {
-  font-weight: bold;
-  margin-bottom: 0;
-  padding-bottom: 6px;
-}
-
-p {
-  margin-top: 0;
-  color: #5494f6;
-}
-
-#blc {
-  color: #6c6c6c;
-  padding-bottom: 50px;
-  border-right: 3px solid #6c6c6c;
-  height: 28px;
-}
-
-.first-pers {
-  margin-top: 25px;
-}
-
-.main h1 {
-  font-weight: bold;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.team p {
-  margin-top: 0;
-  color: #5494f6;
-  padding-bottom: 20px;
-}
-
-.first-pers {
-  margin-top: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px;
-}
-
-.sec-pers, .third-pers {
-  box-shadow: rgba(0, 0, 0, 0.24) 11px 10px 57px;
-}
-
-.last {
-  padding-top: 15px;
-  text-align: center;
-  background-color: #f2f6f7;
-  padding-bottom: 30px;
-}
-
-footer {
-  background-color: #f2f6f7;
-  width: 100%;
-}
-
-.last p {
-  color: #6c6c6c;
-}
-
-.it1, .it3, .it2 {
-  display: flex;
-  height: 80px;
-  margin: 0;
-  align-items: center;
-  gap: 20px;
-  padding: 13px;
-}
-
-.msg-first {
-  display: flex;
-  height: 80px;
-  margin: 0;
-  align-items: center;
-  gap: 20px;
-  padding: 13px;
-}
-
-.msg {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-  margin: auto;
-}
-
-.feedback-input1 {
-  background: url(../img/icon1.png) no-repeat scroll 7px 7px;
-  padding-left: 5px;
-  background-size: contain;
-  height: 32px;
-  background-position: right;
-  margin-bottom: 30px;
-}
-
-.feedback-input2 {
-  background: url(../img/icon2.png) no-repeat scroll 7px 7px;
-  padding-left: 5px;
-  background-size: contain;
-  height: 32px;
-  background-position: right;
-  margin-bottom: 30px;
-}
-
-.feedback-input3 {
-  height: 131px;
-  background: url(../img/icon3.png) no-repeat scroll 7px 7px;
-  padding-left: 5px;
-  background-size: 26px;
-  padding-top: 1px;
-  background-position: top right;
-  margin-bottom: 30px;
-}
-
-#btn {
-  width: 100px;
-  height: 34px;
-  color: white;
-  background-color: skyblue;
-  border: none;
-  border-radius: 4px;
-}
-
-.footr {
-  background: black;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding-top: 40px;
-}
-
-.footr img, .footr i {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
-.text-foot p {
-  color: white;
-  padding-top: 20px;
-}
-
-#fot-img {
-  width: 70px;
-  height: 70px;
-}
-
-.footr i {
-  padding-left: 10px;
-}
-
-.text-foot em {
-  color: #5494f6;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/style.scss:13
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:311:in `reformat_argument_error'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:158:in `rescue in _perform'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:127:in `_perform'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:478:in `visit_variable'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:468:in `update_stylesheet'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:449:in `on_file_changed'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/config.rb:28:in `call'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:117:in `block in _process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:26:in `rescue_and_log'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:116:in `_process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:25:in `block in loop_for'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:20:in `loop'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:20:in `loop_for'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/loop.rb:85:in `_process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/loop.rb:51:in `block in start'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:26:in `rescue_and_log'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:18:in `block in new'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: wrong number of arguments (1 for 3) for `rgb'\A         on line 13 of scss/style.scss\A \A 8: \A 9: \A 10: \A 11: //*colors//\A 12: $grey: #f1f6f7;\A 13: $darkGrey: rgb(108 108 108);\A 14: $myGradient: linear-gradient(180deg, rgb(44, 217, 221), rgb(4, 116, 241));\A 15: $lineColor: #d4e0f0;\A 16: $buttonTxtColor: #2a7ef3;\A 17: $middleGrey: #E8ECEF;\A 18: $breakpoint-desktop: 1024px;"; }
