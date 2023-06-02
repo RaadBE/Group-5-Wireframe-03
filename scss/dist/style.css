@@ -10,10 +10,13 @@
   .download {
     background-color: #f1f6f7;
     border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0069fe;
   }
 
   .desktop {
-    background-color: #0069fe;
+    background-color: none;
     border: none;
   }
 
@@ -39,7 +42,7 @@
     display: none;
   }
 
-  .secondblock .services {
+  .services {
     display: flex;
     flex-direction: row;
   }
@@ -124,6 +127,7 @@ header {
 .secondblock .servicestitle {
   padding-top: 100px;
   padding-bottom: 15px;
+  color: black;
 }
 .secondblock .servicesdescription {
   color: #6c6c6c;
@@ -144,13 +148,16 @@ header {
 .secondblock .graphisdesign {
   display: flex;
   justify-content: space-around;
+  color: black;
 }
 .secondblock .digitalmarketing {
   display: flex;
   justify-content: space-around;
+  color: black;
 }
 .secondblock .webdesign {
   display: flex;
+  color: black;
   justify-content: space-around;
 }
 .secondblock .brush, .secondblock .frame, .secondblock .bolt {
